@@ -1,13 +1,74 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  background-color: beige;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  background-color: rgb(219, 199, 207);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  padding-bottom: 12px;
+}
+
+.title {
+  text-align: center;
+  font-size: 39px;
+  font-family: monospace;
+  color: beige;
+  padding-top: 35px;
+}
+
+#standard-error-helper-text {
+  background-color: rgb(235, 224, 232);
+  border-radius: 4px;
+}
+
+.content {
+  margin: 40px;
+}
+
+#form {
+  margin: 40px;
+}
+
+.add-button {
+  margin: 9px 9px 9px 19px !important;
+}
+
+#edit {
+  margin-right: 12px;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.list-item {
+  background-color: rgb(224, 206, 223);
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 12px;
+}
+
+.text-field {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(70, 70, 70);
+  width: calc(100% - 100px);
+  height: 50px;
+  line-height: 50px;
+  padding-right: 6px;
+  box-sizing: border-box;
 }
